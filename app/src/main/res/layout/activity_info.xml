@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/notes"
+    tools:context=".Info">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="303dp"
+        android:layout_height="486dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="86dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="left|center_vertical"
+        android:text="i) To add notes Click on the three dots at upper right corner and then click add Notes Option.\n\n\n
+ii) To Edit Notes just Single click the Note you want to Edit.\n\n\n iii) To Delete a Note Long press the note you want to delete."
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="@font/anton"
+        android:text="APP INFO"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
